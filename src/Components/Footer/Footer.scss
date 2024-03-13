@@ -1,0 +1,115 @@
+@import '../../assets/styles/vars';
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 50vh;
+    // transform: rotate(180deg);
+    background-image: url('../../assets/images/footer (2).png');
+    background-position: 20% -120%;
+    background-repeat: no-repeat;
+
+    /* Adjust as needed */
+   .section{
+    margin-top: 100px;
+        h2 {
+            color:white;
+            justify-content: center;
+    
+        }
+    
+
+    .socialmedia {
+     margin-top: 90px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        
+       
+
+        a {
+           
+            font-size: 30px;
+            cursor: pointer;
+            transition: .4s ease;
+
+            &:hover {
+                transition: .4s ease;
+                transform: scale(1.5);
+            }
+        }
+
+        a:nth-child(1) {
+            color: $fourth-color;
+        }
+
+        a:nth-child(2) {
+            color: $fourth-color;
+        }
+
+        a:nth-child(3) {
+            color: $fourth-color;
+        }
+
+        a:nth-child(4) {
+            color: $fourth-color;
+        }
+    }
+}
+}
+// .custom-shape-divider-bottom-1709815028 {
+//     position: relative;
+//     width: 100%;
+//     overflow: hidden;
+//     line-height: 0;
+
+// }
+
+// .custom-shape-divider-bottom-1709815028 svg {
+//     position: relative;
+//     display: block;
+//     width: calc(208% + 1.3px);
+//     height: 200px;
+//     transform: rotateY(180deg);
+// }
+
+// .custom-shape-divider-bottom-1709815028 .shape-fill {
+//     fill: #2D9596;
+
+// }
+@media (max-width: 1100px) {
+
+    .footer {
+        background-position: 40% 100%;
+        // background-position: right 35% bottom 40%; 
+    }
+}
+@media (max-width: $screen-bp) {
+
+    .footer {
+        // background-position: 40% 90%;
+         background-position: right 40% bottom 40%; 
+    }
+}
+
+@media (max-width: $laptop-bp) {
+
+    .footer {
+        background-position: right 35% bottom 40%; 
+    }
+}
+
+@media (max-width:$tablet-bp) {
+
+    .footer {
+        background-position: right 35% bottom 40%; 
+    }
+}
+
+@media (max-width: $mobile-bp) {
+    .footer {
+        background-position: right 35% bottom 45%;    }
+}

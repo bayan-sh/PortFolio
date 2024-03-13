@@ -1,0 +1,294 @@
+@import '../../assets/styles/vars';
+
+.projects-sec {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 60px;
+}
+ 
+
+//   .project1 {
+//     margin: 10px;
+//     width: 340px;
+//     height: 800px;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 10px;
+
+//     img {
+//       display: flex;
+//       justify-content: center;
+//       height: 200px;
+//       width: auto;
+//       object-fit: contain;
+      
+//       .image-project1 {}
+//     }
+
+//     .title-project1 {
+//       color: $first-color ;
+//       height: 80px;
+//       flex: .3;
+//     }
+
+//     .text-project1 {
+//       font-size: 15px;
+//       flex: .3;
+//     }
+
+//     .btn-1 {
+//       background: $third-color ;
+//       width: 140px;
+//       height: 30px;
+//       text-align: center;
+//       margin-top: 10px;
+//       border-radius: 10px;
+
+//       a {
+//         color: $fourth-color;
+//       }
+
+//       &:hover {
+//         cursor: pointer;
+//         background-color: darken($color: #2d9596, $amount: 10);
+//       }
+//     }
+//   }
+
+
+//   .project2 {
+//     margin: 10px;
+//     width: 340px;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 10px;
+//     height: 800px;
+
+//     img {
+//       height: 200px;
+//       width: auto;
+//       object-fit: contain;
+
+//       .image-project2 {}
+//     }
+
+//     .title-project2 {
+//       color: $first-color ;
+//       height: 80px;
+//       margin-bottom: 25px;
+//       flex: .3;
+//     }
+
+//     .text-project2 {
+//       font-size: 15px;
+//       flex: .3;
+//     }
+
+//     .btn-2 {
+//       background: $third-color ;
+//       width: 140px;
+//       height: 30px;
+//       text-align: center;
+
+//       border-radius: 10px;
+
+//       a {
+//         color: $fourth-color;
+//       }
+
+//       &:hover {
+//         cursor: pointer;
+//         background-color: darken($color: #2d9596, $amount: 10);
+//       }
+//     }
+//   }
+
+//   .project3 {
+//     margin: 10px;
+//     width: 340px;
+//     height: 800px;
+//     display: flex;
+//     flex-direction: column;
+
+//     gap: 10px;
+
+//     img {
+//       height: 200px;
+//       width: auto;
+//       object-fit: contain;
+
+//       .image-project1 {}
+//     }
+
+//     .title-project3 {
+//       color: $first-color ;
+//       height: 80px;
+//       flex: .3;
+//     }
+
+//     .text-project3 {
+//       font-size: 15px;
+//       flex: .3;
+//     }
+
+//     .btn-3 {
+//       background: $third-color ;
+//       width: 140px;
+//       height: 30px;
+//       text-align: center;
+//       border-radius: 10px;
+
+//       a {
+//         color: $fourth-color;
+//       }
+
+//       &:hover {
+//         cursor: pointer;
+//         background-color: darken($color: #2d9596, $amount: 10);
+//       }
+//     }
+//   }
+
+
+
+// }
+
+// @media (max-width: $screen-bp) {
+//   .projects-sec {
+
+//     .project1 {
+
+//       img {
+//         height: 200px;
+//         width: 200px;
+//       }
+//     }
+
+//     .project2 {
+//       img {
+//         height: 200px;
+//         width: 200px;
+//       }
+
+//     }
+
+//     .project3 {
+//       img {
+//         height: 200px;
+//         width: 200px;
+//       }
+
+//     }
+//   }
+
+// }
+
+// @media (max-width: $laptop-bp) {
+//   .projects-sec {
+
+//     .project1 {
+
+//       img {
+//         height: 200px;
+//         width: 200px;
+//       }
+//     }
+
+//     .project2 {
+//       img {
+//         height: 200px;
+//         width: 200px;
+//       }
+
+//     }
+
+//     .project3 {
+//       img {
+//         height: 200px;
+//         width: 200px;
+//       }
+
+//     }
+//   }
+
+
+// }
+
+// @media (max-width:$tablet-bp) {
+
+//   .projects-sec {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+
+//     .project1 {
+
+//       img {
+//         height: 200px;
+//         width: 200px;
+//       }
+//     }
+
+//     .project2 {
+//       img {
+//         height: 200px;
+//         width: 200px;
+//       }
+
+//     }
+
+//     .project3 {
+//       img {
+//         height: 200px;
+//         width: 200px;
+//       }
+
+//     }
+//   }
+// }
+
+// @media (max-width: $mobile-bp) {
+//   .projects-sec {
+//     display: block;
+
+//     .project1 {
+
+//       img {
+//         height: 200px;
+//         width: 200px;
+//       }
+//     }
+
+//     .project2 {
+//       img {
+//         height: 200px;
+//         width: 200px;
+//       }
+
+//     }
+//   }
+// }
+@media (max-width: $laptop-bp) {
+
+  .projects-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width:$tablet-bp) {
+
+  .projects-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: $mobile-bp) {
+
+  .projects-sec {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

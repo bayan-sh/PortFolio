@@ -1,0 +1,29 @@
+@import '../../assets/styles/vars';
+
+.card-conatiner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+
+@media (max-width: $laptop-bp) {
+
+  .card-conatiner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width:$tablet-bp) {
+
+  .card-conatiner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: $mobile-bp) {
+
+  .card-conatiner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
