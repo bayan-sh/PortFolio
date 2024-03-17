@@ -15,7 +15,7 @@ const Home = () => {
             <h4 className='home-desc'>I am a highly skilled software engineer specializing in front-end React.js development. With a strong background in HTML, CSS, and JavaScript, I excel in creating modern and intuitive user interfaces for web applications. My expertise lies in leveraging the power of React.js to build robust, scalable, and interactive front-end solutions.</h4>
             <div className='bt'>
               <Link to="/Projects" className='btn-1'>
-                <div className='text-btn'>Projects</div>
+                Projects
               </Link>
               <button className='btn-2'><a href="https://www.linkedin.com/in/bayan-shouman-8968a5201" target="_blank">LinkedIn</a></button>
             </div>
