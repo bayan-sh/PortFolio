@@ -1,0 +1,28 @@
+.cards {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cards .p1 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.cards .p1 img {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.cards .p-timeline-event {
+  display: flex;
+  gap: 20px;
+}
+.cards .p-timeline-event .p-timeline-event-opposite {
+  width: 6px;
+}
+.cards .p-timeline-event .p-timeline-event-separator {
+  height: 20vh;
+}/*# sourceMappingURL=Contact.css.map */

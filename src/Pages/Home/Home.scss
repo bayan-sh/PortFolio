@@ -11,77 +11,86 @@
 
         .home-text {
             flex: 1;
+
             .career {
                 color: $third-color ;
                 font-size: 22px;
                 height: auto;
                 padding-bottom: 30px;
             }
+
             .Me {
                 color: #265073;
                 font-size: 50px;
                 padding-bottom: 30px;
             }
+
             .home-desc {
                 font-size: 16px;
-                font-family:Arial, Helvetica, sans-serif;
+                font-family: Arial, Helvetica, sans-serif;
                 font-weight: 4px;
             }
-            
-.bt {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    padding-top: 20px;
-    .btn-1 {
-        width: 100px;
-        height: 40px;
-        color: #2d9596;
-        font-size: 17px;
-        border-color: #2d9596;
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 15px;
-        transition: .4s ease-in-out;
-        outline: auto;
-        &:hover {
-            transition: .4s ease-in-out;
-            cursor: pointer;
-            outline-color: #2d9596;
-            outline-offset: 2px;
-            // box-shadow: 0px 5px 10px #265073;
-        }
-        .text-btn {
-            display: flex;
-            justify-content: center;
-            padding-top: 9px;
-        }
-    }
 
-    .btn-2 {
-        width: 100px;
-        height: 40px;
-        color: white;
-        background: #2d9596;
-        font-size: 17px;
-        border: 1px solid #2d9596;
-        // border-color: #2d9596;
-        // border-style: solid;
-        // border-width: 2px;
-        border-radius: 15px;
-    
-        &:hover {
-            cursor: pointer;
-            background-color: darken($color: #2d9596, $amount: 10);
-        }
-        a{
-            color: white;
-        }
-        a:hover{
-           color: beige;
-        }
-    }
-}
+            .bt {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                padding-top: 20px;
+
+                .btn-1 {
+                    // width: 100px;
+                    // height: 40px;
+                    padding: 6px 16px;
+                    color: #2d9596;
+                    font-size: 17px;
+                    border-color: #2d9596;
+                    border-style: solid;
+                    border-width: 1px;
+                    border-radius: 15px;
+                    transition: .4s ease-in-out;
+                    outline: auto;
+
+                    &:hover {
+                        transition: .4s ease-in-out;
+                        cursor: pointer;
+                        outline-color: #2d9596;
+                        outline-offset: 2px;
+                        // box-shadow: 0px 5px 10px #265073;
+                    }
+
+                    .text-btn {
+                        display: flex;
+                        justify-content: center;
+                        // padding-top: 9px;
+                    }
+                }
+
+                .btn-2 {
+                    width: 100px;
+                    height: 40px;
+                    color: white;
+                    background: #2d9596;
+                    font-size: 17px;
+                    border: 1px solid #2d9596;
+                    // border-color: #2d9596;
+                    // border-style: solid;
+                    // border-width: 2px;
+                    border-radius: 15px;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: darken($color: #2d9596, $amount: 10);
+                    }
+
+                    a {
+                        color: white;
+                    }
+
+                    a:hover {
+                        color: beige;
+                    }
+                }
+            }
 
 
 
@@ -156,6 +165,7 @@
             flex-direction: column;
 
         }
+
         .custom-shape-divider-top-1709626034 svg {
             width: calc(101% + 1.3px);
             height: 140px;
@@ -177,8 +187,3 @@
 a {
     text-decoration: none;
 }
-
-
-
-
-
