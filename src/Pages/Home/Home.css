@@ -116,6 +116,18 @@
     height: 140px;
   }
 }
+@media (min-width: 310px) and (max-width: 459px) {
+  .home .home-content {
+    padding: 23px;
+  }
+  .home .home-content .home-text .Me {
+    font-size: 30px;
+  }
+  .custom-shape-divider-top-1709626034 svg {
+    width: calc(200% + 2.2px);
+    height: 140px;
+  }
+}
 /** For tablet devices **/
 @media (max-width: 960px) {
   .home .home-content {
