@@ -12,17 +12,15 @@ const Contact = () => {
   ];
   return (
     <>
-    
       <div className="cards">
-      
         <Timeline value={events}
           opposite={(item) => item.status}
           content={(item) => <small className="text-color-secondary">{item.date}</small>} />
-          {/* <div className='p1'>
+        {/* <div className='p1'>
           <img src={acpc}/>
           </div> */}
       </div>
-      
+
 
     </>
   )
