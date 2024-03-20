@@ -23,7 +23,7 @@ Throughout my career, I have demonstrated a deep understanding of React's compon
 As a software engineer, I possess a solid understanding of front-end development best practices, including responsive design, cross-browser compatibility, and accessibility standards. I am proficient in utilizing CSS frameworks like Bootstrap or Material-UI to create responsive and mobile-friendly designs, while also leveraging CSS preprocessors to streamline and optimize styles.
 I am experienced in integrating front-end components with backend APIs, effectively handling data flow, and managing state using libraries such as Redux or React Context API. I am skilled in efficiently handling asynchronous data requests using Axios or the fetch API, ensuring seamless communication between the front-end and backend systems.
 Committed to continuous learning and professional growth 
-As a software engineer, I am driven by a passion for crafting high-quality code and staying up-to-date with the latest industry trends and technologies. I am adept at collaborating with cross-functional teams, including designers and backend developers, to deliver exceptional web applications that meet business requirements and exceed user expectations. </div>
+As a software engineer. </div>
         </div>
       </div>
       <div className='aboutme-column'></div>
