@@ -14,12 +14,16 @@
         max-width: 50vw;
 
         @media (min-width: 768px) and (max-width: 1023px) {
-            max-width: 100vw;
+            max-width: 60vw;
 
         }
             @media (min-width: 450px) and (max-width: 768px) {
-                max-width: 60vw;   
+                max-width: 80vw;   
                 margin: 20px; 
+                .p-timeline-event-separator{
+                  margin-top: 20px;
+                 
+                }
                 .p-timeline-event-opposite {
                    padding: 18px;
                    width: 23px;
@@ -33,15 +37,22 @@
                 }
         }
         @media (min-width: 100px) and (max-width: 450px) {
-            max-width: 60vw;   
+            max-width: 80vw;   
             margin: 30px; 
+            .p-timeline-event-separator{
+                margin-top: 24px;
+                margin: 10px;
+               
+              }
             .p-timeline-event-opposite {
-               padding: 30px;
-               width: 23px;
-               font-size: 12px;    
+             
+               width: 40px;
+               font-size: 11px;  
+               margin: 10px; 
+             
             }
             .p-timeline-event-content {
-                margin-top: 30px;
+                margin-top: 14px;
                 font-size: 14px;
               
 

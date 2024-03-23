@@ -1,2 +1,9 @@
 .Header-ba {
+    width: auto;
+}
+@media (min-width: 100px) and (max-width: 450px) {
+    .Header-ba {
+        width: auto;
+    }
+
 }

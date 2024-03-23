@@ -26,19 +26,33 @@ export const Navbar = () => {
                         <span></span>
                     </div>
                     <li className='navbar-item'>
-                        <Link to="/">HOME</Link>
+                        <Link onClick={()=>{
+                            showNavbar()
+                        }} to="/">HOME</Link>
                     </li>
                     <li className='navbar-item'>
-                        <Link to="/About">ABOUT ME</Link>
+                        <Link onClick={()=>{
+                            showNavbar()
+                        }}
+                        to="/About">ABOUT ME</Link>
                     </li>
                     <li className='navbar-item'>
-                        <Link to="/services">SERVIECES</Link>
+                        <Link onClick={()=>{
+                            showNavbar()
+                        }}
+                        to="/services">SERVIECES</Link>
                     </li>
                     <li className='navbar-item'>
-                        <Link to="/Projects">PROJECTS</Link>
+                        <Link onClick={()=>{
+                            showNavbar()
+                        }}
+                         to="/Projects">PROJECTS</Link>
                     </li>
                     <li className='navbar-item'>
-                        <Link to="/Contact">CERTIFICATE</Link>
+                        <Link onClick={()=>{
+                            showNavbar()
+                        }}
+                        to="/Contact">CERTIFICATE</Link>
                     </li>
 
                     <button className="nav-btn nav-close-btn " onClick={showNavbar}>
