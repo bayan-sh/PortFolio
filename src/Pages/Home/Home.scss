@@ -114,7 +114,7 @@
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 170px;
+    height: 165px;
 }
 
 .custom-shape-divider-top-1709626034 .shape-fill {
@@ -131,7 +131,7 @@
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
-    margin-top: 63px;
+    margin-top: 55px;
 }
 
 /** For tablet devices **/
@@ -176,7 +176,10 @@
 
             .home-text {
                 .Me {
-                    font-size: 30px;
+                    font-size: 27px;
+                }
+                .career{
+                    margin-top: 25px;
                 }
             }
 
