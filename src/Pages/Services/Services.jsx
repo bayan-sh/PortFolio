@@ -1,7 +1,6 @@
 import React from 'react'
 import './Services.scss'
 import CardTest from '../../Components/card-test/CardTest';
-import service from '../../assets/about.jpg'
 
 const Services = () => {
   return (
