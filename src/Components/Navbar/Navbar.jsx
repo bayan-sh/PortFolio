@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useRef } from "react";
+import bayan from '../../assets/images/bayan.png'
 import './Navbar.scss'
 import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from "react-icons/fa"
@@ -15,7 +16,7 @@ export const Navbar = () => {
     return (
         <div className='navbar-ba'>
             <header>
-                <h1> PortFolio</h1>
+                <h1> <img src={bayan} style={{height:"60px",padding:"8px"}}/></h1>
                 <nav ref={navRef}>
                     <div className='menu'>
                         <span></span>
