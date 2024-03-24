@@ -131,7 +131,7 @@
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
-    margin-top: 70px;
+    margin-top: 59px;
 }
 
 /** For tablet devices **/
@@ -173,6 +173,27 @@
     .home {
         .home-content {
             padding: 20px;
+
+            .home-text {
+                .Me {
+                    font-size: 27px;
+                }
+                .career{
+                    margin-top: 25px;
+                }
+            }
+
+        }
+    }
+
+    // .custom-shape-divider-top-1709626034 {
+    //  margin-top: 73px;
+    // }
+}
+@media (min-width: 100px) and (max-width: 310px) {
+    .home {
+        .home-content {
+            padding: 40px;
 
             .home-text {
                 .Me {

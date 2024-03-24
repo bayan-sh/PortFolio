@@ -15,15 +15,13 @@ const Footer = () => {
         <h2 className='name'>Bayan Shouman</h2>
       </div> */}
       <div className='section'>
-      <div className='socialmedia'>
-
-        <a href="https://github.com/bayan-sh" target="_blank"><FaGithub/></a>
-        <a href="mailto:shomanb249@gmail.com
+        <div className='socialmedia'>
+          <a href="https://github.com/bayan-sh" target="_blank"><FaGithub /></a>
+          <a href="mailto:shomanb249@gmail.com
         " target="_blank"><HiOutlineMail /></a>
-        <a href="https://www.linkedin.com/in/bayan-shouman-8968a5201" target="_blank"><CiLinkedin /></a>
-        
-      </div>
-      <h2 className='name'>Bayan Shouman</h2>
+          <a href="https://www.linkedin.com/in/bayan-shouman-8968a5201" target="_blank"><CiLinkedin /></a>
+        </div>
+        <h2 className='name'>Bayan Shouman</h2>
       </div>
     </div>
 
