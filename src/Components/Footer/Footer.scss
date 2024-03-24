@@ -23,9 +23,6 @@
         justify-content: center;
         gap: 20px;
         align-items: center;
-        
-       
-
         a {
            
             font-size: 30px;
@@ -76,36 +73,37 @@
 //     fill: #2D9596;
 
 // }
-@media (max-width: 1100px) {
+@media (min-width: 1600px) and (max-width: 2000px) {
 
     .footer {
-        background-position: 40% 100%;
+        background-position: 30% 60%;
         // background-position: right 35% bottom 40%; 
     }
 }
-@media (max-width: $screen-bp) {
-
+@media (min-width: $screen-bp) and (max-width:1600px) {
     .footer {
         // background-position: 40% 90%;
-         background-position: right 40% bottom 40%; 
+        background-position: 30% 60%;
+        //  background-position: right 43% bottom 20%; 
     }
 }
 
-@media (max-width: $laptop-bp) {
+@media (min-width: $laptop-bp) and  (max-width: $screen-bp) {
 
     .footer {
         background-position: right 35% bottom 40%; 
     }
 }
 
-@media (max-width:$tablet-bp) {
+@media (max-width: $laptop-bp) and (min-width:$mobile-bp) {
 
     .footer {
-        background-position: right 35% bottom 40%; 
+       
+        background-position: 30% 60%;
     }
 }
 
-@media (max-width: $mobile-bp) {
+@media (max-width: $mobile-bp) and (min-width:100px){
     .footer {
         background-position: right 35% bottom 45%;    }
 }
