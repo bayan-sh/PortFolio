@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-
     <div className='footer'>
       {/* <div className='name-sec'>
         <h2 className='name'>Bayan Shouman</h2>
