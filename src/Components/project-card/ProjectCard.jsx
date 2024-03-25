@@ -9,7 +9,7 @@ const ProjectCard = ({ picture, title, content, link }) => {
                 <div className='upproject'>
                     <img className="photo" src={picture} />
                 </div>
-                <h2 className='title'>{title}</h2>
+                <h3 className='title'>{title}</h3>
                 <div className='content'>
                     <h4 className='percentage'>{content}</h4>
                 </div>

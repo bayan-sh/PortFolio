@@ -23,16 +23,17 @@
                 width: auto;
                 object-fit: contain;
             }
-
-
         }
 
-        h2 {
+        h3 {
             color: $first-color ;
+            margin-bottom: 20px;
+            margin-top: 6px;
 
             .title {
-                margin: 20px;
+                
                 font-size: 15px;
+              
 
             }
         }
