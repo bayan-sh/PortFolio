@@ -11,7 +11,7 @@ const Projects = () => {
     <div className='projects-sec'>
       <ProjectCard picture={project1} title={"Automation of a university comparison and acceptance system"} content={"This project is a system for managing the application process for university comparisons.The system records student requests and processes them according to specific criteria"} />
       <ProjectCard picture={project2} title={"Real Estate Booking System Using Smart Contract"} content={"The Real Estate Booking System using Smart Contract project aims to create a decentralized platform for booking and managing real estate properties.This project allows users to book a property"} link={"https://github.com/bayan-sh/Real-estate-website"}/>
-      <ProjectCard picture={logo} title={" MR-APPS Dashboard"} content={"manages progrsmming services , display project, display services."} link={"https://github.com/bayan-sh/mr-apps-dashboard"}/>
+      <ProjectCard picture={logo} title={" MR-APPS Dashboard"} content={"manages programming services , display project, display services."} link={"https://github.com/bayan-sh/mr-apps-dashboard"}/>
     </div>
   )
 }
